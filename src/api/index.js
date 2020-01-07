@@ -14,7 +14,7 @@ export const getNydalenDepartures = async () => {
   const nydalen = {
     name: "Bislett",
     featureArray: [
-      "NSR:StopPlace:3A58353"
+      "NSR:StopPlace:58353"
     ]
   }
   const departures = await getDepartures(nydalen.featureArray[0], 20)
