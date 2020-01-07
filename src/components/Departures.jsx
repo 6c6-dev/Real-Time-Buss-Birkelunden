@@ -83,10 +83,8 @@ const DepartureItem = ({ departure }) => {
   const {timeToDeparture, transport, publicCode, frontText} = departure
 
   const transportColor = useMemo(() => {
-    if(transport === "metro"){
+    if(transport === "tram"){
       return "#EC700C"
-    } else if(transport ==="tram") {
-      return "#03d3fc"
     } else {
       return "#E60000"
     }
