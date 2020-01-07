@@ -84,7 +84,7 @@ const DepartureItem = ({ departure }) => {
 
   const transportColor = useMemo(() => {
     if(transport === "localTram"){
-      return "#EC700C"
+      return "#0B91EF"
     } else {
       return "#E60000"
     }
